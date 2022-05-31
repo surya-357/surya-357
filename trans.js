@@ -1,9 +1,9 @@
 let fs = require('fs');
 let frequency = {};
 let filePath = './french_dictionary.csv';
-let english_words = null;
-let french_words = null;
-let french_dictionary = null;
+// let english_words = null;
+// let french_words = null;
+// let french_dictionary = null;
 function csvJSON(csv) {
     const lines = csv.split('\n')
     const result = []
