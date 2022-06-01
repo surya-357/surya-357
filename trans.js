@@ -1,6 +1,6 @@
 let fs = require('fs');
 let frequency = {};
-let filePath = './french_dictionary.csv';
+// let filePath = './french_dictionary.csv';
 // let english_words = null;
 // let french_words = null;
 // let french_dictionary = null;
@@ -26,7 +26,7 @@ const data = fs.readFileSync('./french_dictionary.csv',
 let shakespeareData = fs.readFileSync('./t8.shakespeare.txt',
 { encoding: 'utf8', flag: 'r' });
 let french_dictionary_json = csvJSON(data)
-let finalData = shakespeareData;
+// let finalData = shakespeareData;
 
 
 let getFrenchDictinary = function getFrenchDictinary() {
